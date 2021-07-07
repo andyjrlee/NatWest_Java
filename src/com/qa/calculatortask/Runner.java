@@ -14,19 +14,19 @@ public class Runner {
 
 	// methods - outside of the main method
 	public static double addTwo(double number1, double number2) {
-		return number1 + number2;
+		return number1+number2;
 	}
 
-	public static int subTwo(int number1, int number2) {
-		return number1 - number2;
+	public static double subTwo(double number1, double number2) {
+		return number1-number2;
 	}
 
-	public static int mulTwo(int number1, int number2) {
-		return number1 * number2;
+	public static double mulTwo(double number1, double number2) {
+		return number1*number2;
 	}
 
 	public static double divTwo(double number1, double number2) {
-		return number1 / number2;
+		return number1/number2;
 	}
 
 }// END
